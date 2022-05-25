@@ -6,7 +6,7 @@ metadata:
   - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    server: https://127.0.0.1:57000
+    server: minikube
     namespace: default
   project: default
   source:
